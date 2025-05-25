@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.full-page{
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* -----------page1------------------ */
+.page1{
+  height: 80%;
+  width: 80%;
+  background-color: #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+.page1 button{
+  padding: 2.5vw 3.4vw;
+  background-color: rgb(33, 171, 33);
+  border-radius: 7px;
+  border: 0;
+  outline: 0;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 900;
+}
+
+/* ---------page2------------------ */
+
+.page2{
+  height: 80%;
+  width: 80%;
+  background-color: #cce2c1;
+  display: none;
+}
+.nav{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+  margin-left: 6%;
+}
+.nav img{
+  height: 7vh;
+}
+.nav .speaker{
+  height: 5vh;
+}
+.que-count{
+  padding: 2px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 6%;
+}
+.que-count p{
+  padding: 10px 20px;
+  background-color: orange;
+  font-weight: 700;
+  font-size: 18px;
+  color: #222;
+  border-radius: 8px;
+}
+.que{
+  padding: 17px 20px;
+  border-radius: 7px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 6%;
+  background-color: #fff;
+  width: 88%;
+}
+.que p{
+  font-weight: 600;
+  font-size: 17px;
+}
+.coundown{
+  padding: 2px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 6%;
+}
+.coundown p{
+  padding: 10px 20px;
+  background-color: rgb(111, 234, 80);
+  font-weight: 700;
+  font-size: 18px;
+  color: #222;
+  border-radius: 8px;
+}
+.options{
+  height: fit-content;
+  padding: 17px 20px;
+  border-radius: 7px;
+  margin-left: 6%;
+  background-color: #fff;
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.options button{
+  padding: 10px 20px;
+  text-align: start;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 9px;
+  border:1px solid lightgray;
+}
+.options button:hover{
+  background-color: #dadada;
+}
+.next{
+  padding: 2px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 6%;
+}
+.next p{
+  color: rgb(27 175 39);
+  font-weight: 700;
+  font-size: 19px;
+}
+/* -----------page3--------------- */
+.page3{
+  height: 80%;
+  width: 80%;
+  background-color: #dadada;
+  display: none;
+}
+.result{
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.result p{
+  font-weight: 900;
+  font-size: 20px;
+}
+.loader{
+  width: 70%;
+  border: 1px solid black;
+  margin-left: 15%;
+  height: 40px;
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+  background-color: #dadada;
+  margin-bottom: 11%;
+}
+.loader .greenloader{
+  background-color: rgb(90, 212, 90);
+  height: 100%;
+  width: 40%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+.feedback{
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  font-size: 3vw;
+  font-weight: 600;
+  margin-bottom: 11%;
+}
+.restart{
+  display: flex;
+  justify-content: center;
+}
+.restart button{
+  padding: 20px 45px;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  background-color: rgb(90, 212, 90);
+  font-weight: 800;
+  font-size: 21px;
+  color: #fff;
+  margin-bottom: 18%;
+}
+.share{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.share-context{
+  font-size: 17px;
+}
+.icon i{
+  font-size: 20px;
+  margin: 5px; 
+}
